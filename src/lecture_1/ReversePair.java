@@ -24,8 +24,8 @@ public class ReversePair {
 		int p2 = m + 1;
 		
 		while (p1 <= m && p2 <= r) {
-			result += arr[p1] > arr[p2] ? (m-p1+1) : 0;
-			help[index++] = arr[p1] < arr[p2] ? arr[p1++] : arr[p2++];
+			result += arr[p1] > arr[p2] ? m-p1+1 : 0;
+			help[index++] = arr[p1] > arr[p2] ? arr[p2++] : arr[p1++];
 		}
 		
 		while (p1 <= m) {
