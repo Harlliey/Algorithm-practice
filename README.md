@@ -10,9 +10,9 @@
 * lecture_3包中主要内容包括：
 
   - [x] MaxGap问题代码实现（**Leetcode164 Maximum Gap**），该问题为桶排序思路的应用
-- [x] MinStack问题的代码实现（**Leetcode155. MinStack**）
+  - [x] MinStack问题的代码实现（**Leetcode155. MinStack**）
   - [x] 使用栈实现队列（**Leetcode232. Implement Queue using Stacks**）
-- [x] 使用队列实现栈（**Leetcode 225. Implement Stack using Queues**）
+  - [x] 使用队列实现栈（**Leetcode 225. Implement Stack using Queues**）
 * lecture_4包中主要内容包括：
   - [x] 转圈打印矩阵代码实现（**Leetcode 54. Spiral Matrix**）
   - [x] Zigzag方式打印矩阵代码实现（**lintcode 185. Matrix ZigZag Traversal**）
