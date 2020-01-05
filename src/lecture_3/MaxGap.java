@@ -1,7 +1,7 @@
 package lecture_3;
 
 /*
- * Leetcode 164. Maximum Gap
+ * Leetcode164. Maximum Gap
  * 需要注意在leetcode大样本容量数据测试下，要将getBucketId函数的参数类型都改成long，否则乘法溢出，进而导致数组越界
  */
 public class MaxGap {
