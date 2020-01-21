@@ -11,7 +11,7 @@
 
   - [x] MaxGap问题代码实现（**Leetcode164 Maximum Gap**），该问题为桶排序思路的应用
   - [x] MinStack问题的代码实现（**Leetcode155. MinStack**）
-  - [x] 使用栈实现队列（**Leetcode232. Implement Queue using Stacks**）
+  - [x] 使用栈实现队列（**Leetcode 232. Implement Queue using Stacks**）
   - [x] 使用队列实现栈（**Leetcode 225. Implement Stack using Queues**）
 * lecture_4包中主要内容包括：
   - [x] 转圈打印矩阵代码实现（**Leetcode 54. Spiral Matrix**）
@@ -19,4 +19,6 @@
   - [x] 90°旋转矩阵代码实现（**Leetcode 48. Rotate Image**）
   - [x] 搜索行和列均有序的二维矩阵代码实现（**Leetcode 240. Search a 2D Matrix II**）
   - [x] 反转链表（**Leetcode 206. Reverse Linked List**）
-  - [ ] 判断一个链表是否为回文结构的各种代码实现（**Leetcode. 234. Palindrome Linked List**）
+  - [x] 判断一个链表是否为回文结构的各种代码实现（**Leetcode 234. Palindrome Linked List**）
+  - [ ] 将一个链表划分为左边小于某个数，右边大于等于某个数的的形式的代码实现 （**Leetcode 86. Partition List**)
+
