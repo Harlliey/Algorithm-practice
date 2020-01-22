@@ -20,5 +20,5 @@
   - [x] 搜索行和列均有序的二维矩阵代码实现（**Leetcode 240. Search a 2D Matrix II**）
   - [x] 反转链表（**Leetcode 206. Reverse Linked List**）
   - [x] 判断一个链表是否为回文结构的各种代码实现（**Leetcode 234. Palindrome Linked List**）
-  - [ ] 将一个链表划分为左边小于某个数，右边大于等于某个数的的形式的代码实现 （**Leetcode 86. Partition List**)
+  - [x] 将一个链表划分为左边小于某个数，右边大于等于某个数的的形式的代码实现 （**Leetcode 86. Partition List**)
 

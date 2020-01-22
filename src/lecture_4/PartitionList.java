@@ -66,10 +66,72 @@ public class PartitionList {
 		
 		ListNode lessHead = null;
 		ListNode lessTail = null;
-		ListNode moreHead = null;
-		ListNode moreTail = null;
+		ListNode grEqHead = null;
+		ListNode grEqTail = null;
 		
-		return null;
+		while (head != null) {
+			ListNode nextNode = head.next;
+			head.next = null;
+			
+			if (head.val < x) {
+				if (lessHead == null) {
+					lessHead = head;
+					lessTail = head;
+				} else {
+					lessTail.next = head;
+					lessTail = lessTail.next;
+				}
+			} else {
+				if (grEqHead == null) {
+					grEqHead = head;
+					grEqTail = head;
+				} else {
+					grEqTail.next = head;
+					grEqTail = grEqTail.next;
+				}
+			}
+			
+			head = nextNode;
+		}
+		
+		if (lessTail != null) {
+			lessTail.next = grEqHead;
+		}
+		
+		return lessHead != null ? lessHead : grEqHead;
+	}
+	
+	// Method three is faster since it eliminate many judging logic in codes 
+	private static ListNode smallList = new ListNode(0);
+	private static ListNode grEqList = new ListNode(0);
+	
+	public static ListNode partition_3(ListNode head, int x) {
+		
+		if (head == null) {
+			return null;
+		}
+		
+		ListNode smallHead = smallList;
+		ListNode grEqHead = grEqList;
+		
+		while (head != null) {
+			ListNode nextNode = head.next;
+			head.next = null;
+			
+			if (head.val < x) {
+				smallList.next = head;
+			} else {
+				grEqList.next = head;
+			}
+			
+			head = nextNode;
+		}
+		
+		if (smallHead.next != null) {
+			smallList.next = grEqHead.next;
+		}
+		
+		return smallHead.next != null ? smallHead.next : grEqHead.next;
 	}
 	
 	private static void swap(ListNode[] arr, int x, int y) {
