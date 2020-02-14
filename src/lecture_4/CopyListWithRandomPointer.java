@@ -9,12 +9,12 @@ import java.util.Map;
 
 public class CopyListWithRandomPointer {
 	
-	private static class Node {
+	static class Node {
 		int val;
 		Node next;
 	    Node random;
 		
-		public Node(int x) {
+		Node(int x) {
 			val = x;
 			next = null;
 			random = null;

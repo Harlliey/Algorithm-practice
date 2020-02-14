@@ -6,11 +6,11 @@ package lecture_4;
 
 public class PartitionList {
 
-	private static class ListNode {
+	static class ListNode {
 		int val;
 		ListNode next;
 		
-		public ListNode(int x) {
+		ListNode(int x) {
 			val = x;
 		}
 	}

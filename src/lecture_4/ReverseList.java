@@ -6,12 +6,12 @@ package lecture_4;
 
 public class ReverseList {
 	
-	public static class ListNode {
+	static class ListNode {
 		int val;
 		ListNode next;
 		
-		public ListNode(int val) {
-			this.val = val;
+		ListNode(int x) {
+			val = x;
 		}
 	}
 

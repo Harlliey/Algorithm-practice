@@ -8,11 +8,11 @@ import java.util.Stack;
 
 public class PalindromeLinkedList {
 	
-	private static class ListNode {
+	static class ListNode {
 		int val;
 		ListNode next;
 		
-		public ListNode(int x) {
+		ListNode(int x) {
 			val = x;
 		}
 	}
