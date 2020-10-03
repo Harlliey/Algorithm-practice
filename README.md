@@ -2,7 +2,7 @@
 
 
 
-左神的算法课部分题目java代码自己重新实现，后期还将用c++重新实现，同时加入搜罗得到的对应LeetCode题目，持续更新...
+左神的算法课部分题目java代码自己重新实现，部分题目若有更常用的解法将实现一题多解以供参考，后期还将用c++重新实现。同时附上对应的LeetCode题号，持续更新...
 
 * lecture_1包中主要内容为归并排序及其应用，除了课上实现的原始归并排序和小和问题外，增加了逆序对问题的实现
 * lecture_1包中更新冒泡，插入和选择排序代码
@@ -31,3 +31,7 @@
   - [x] 判断一颗二叉树是否为二叉搜索树的迭代实现与递归实现（树型dp）（**LeetCode 98. Validate Binary Search Tree**）
   - [x] 判断一颗二叉树是否平衡代码实现（**LeetCode 110. Balanced Binary Tree**）
   - [x] 判断一颗二叉树是否为完全二叉树（**LeetCode 958. Check Completeness of a Binary Tree**）
+  - [x] 寻找二叉树的最低公共祖先 （**LeetCode 236. Lowest Common Ancestor**），完成了通解版本与简洁的特解版本
+  - [x] 二叉树的序列化与反序列化（**LeetCode 297. Serialize and Deserialize Binary Tree**），完成了先序遍历序列化与按层遍历序列化两个版本
+  - [x] 判断一棵二叉树是否为另一棵二叉树的子树（**LeetCode 572. Subtree of Another Tree**）
+  - [x] 折纸问题
